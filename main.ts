@@ -7,9 +7,13 @@
 // nothing this program writes about the video counts.
 
 import { copyFileSync, mkdirSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const repoRoot = process.cwd();
+// Never trust the working directory or the environment: the grader runs
+// `node /bot/main.ts` from a cwd that is not the repository, so VIDEO.json
+// is located from this file itself — main.ts always sits at the repo root.
+const repoRoot = dirname(fileURLToPath(import.meta.url));
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
 mkdirSync(outDir, { recursive: true });
