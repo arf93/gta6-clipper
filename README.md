@@ -1,5 +1,9 @@
 # GTA 6 Clipper — make.fun bounty entry
 
+[![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![rank](https://make.fun/badge/gta6-clipper-01/arf93/gta6-clipper/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![reward](https://make.fun/badge/gta6-clipper-01/arf93/gta6-clipper/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+
 A vertical GTA 6 clip, cut by an AI agent, entered in the
 [gta6-clipper-01](https://make.fun/bounty/gta6-clipper-01) bounty on make.fun:
 clip a GTA 6 moment, pitch make.fun inside the clip, post it as a public
